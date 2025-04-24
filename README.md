@@ -28,8 +28,8 @@ UniSQLBot is a Streamlit-based web application that converts natural language qu
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/unisqlbot.git
-   cd unisqlbot
+   git clone https://github.com/yourusername/UniSQLBot.git
+   cd UniSQLBot
    ```
 
 2. Install the required dependencies:
@@ -72,27 +72,6 @@ For the sample academic database:
 
 The application automatically extracts and displays the schema of the selected database in the sidebar, showing tables and their columns.
 
-### Sample Database
-
-A sample academic database is included with the following structure:
-
-- **author**: Information about academic authors
-  - aid (INTEGER): Author ID
-  - name (TEXT): Author's name
-  - homepage (TEXT): Author's webpage
-  - oid (INTEGER): Organization ID
-
-- **publication**: Academic publications
-  - pid (INTEGER): Publication ID
-  - title (TEXT): Publication title
-  - year (INTEGER): Publication year
-  - cid (INTEGER): Conference ID
-  - jid (INTEGER): Journal ID
-
-- **writes**: Relationship between authors and publications
-  - aid (INTEGER): Author ID
-  - pid (INTEGER): Publication ID
-
 ## 🧩 Architecture
 
 - **main_app.py**: Main application file containing the Streamlit UI and core functionality
@@ -118,7 +97,13 @@ A sample academic database is included with the following structure:
 
 ## 👥 Credits
 
-UniSQLBot was developed by Sai Mahitha, Ajay, and Sai Rathnakar.
+UniSQLBot was developed by:
+
+- Ajay Rallapalli
+- Sai Mahitha Etikala
+- Sai Rathnakar Reddy Paderla
+
+This project was developed as part of the DS5983 SPTP: Large Language Models course at Northeastern University.
 
 ## 📄 License
 
